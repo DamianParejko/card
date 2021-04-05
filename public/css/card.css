@@ -1,0 +1,62 @@
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.side {
+    height: 100vh;
+    text-align: center;
+}
+.title{
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.menu-items {
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
+}
+.menu-items > * {
+    margin-top: 10px;
+}
+.link-btn:focus {
+    outline: none;
+}
+.link-btn {
+    border: none;
+    padding:10px;
+    cursor: pointer;
+    font-size: 20px;
+    background-color: white;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+}
+.dashboard {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    background-color: teal;
+    width: 100vw;
+}
+.content {
+    display: grid;
+    background-color: white;
+    border-radius: 20px;
+    margin: 6px 6px 6px 0px;
+}
+.addlist {
+    margin: auto;
+    padding-top: 50px;
+    width: 50vw;
+}
+.cardlist {
+    margin: auto; 
+    height: 80vh;
+    width: 60vw;
+}
+.paginationlist {
+    margin: auto;
+}
